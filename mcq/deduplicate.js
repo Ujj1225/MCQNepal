@@ -71,13 +71,13 @@ function areQuestionsSimilar(q1, q2) {
   const similarity = calculateSimilarity(q1, q2);
   
   return (
-    similarity.combined > 0.65 || // Lowered from 0.85
+    similarity.combined > 0.45 || // Lowered from 0.85
     similarity.keywordScore > 0.6 || // High keyword overlap
     similarity.contains || // One contains the other
     similarity.charScore > 0.7 // Character match
   );
 }
-
+``
 function scoreExplanation(explanation) {
   if (!explanation) return 0;
   
@@ -107,40 +107,37 @@ function scoreExplanation(explanation) {
   }
   
   if (explanation.includes(':') || explanation.includes(' - ')) score += 1;
-  if (explanation.includes('(') && explanation.includes(')')) score += 1; // Has scientific names
-  if (explanation.match(/\b[A-Z][a-z]+ (et al\.|[A-Z][a-z]+)\b/)) score += 2; // Has scientific names
+  if (explanation.includes('(') && explanation.includes(')')) score += 1; 
+  if (explanation.match(/\b[A-Z][a-z]+ (et al\.|[A-Z][a-z]+)\b/)) score += 2; 
   
   return score;
 }
-
+ 
 function chooseBestMCQ(mcqs) {
   if (mcqs.length === 1) return mcqs[0];
-  
-  // Sort by explanation quality and completeness
+
+
+
   const scored = mcqs.map(m => ({
     ...m,
     score: scoreExplanation(m.explanation)
   }));
   
   scored.sort((a, b) => {
-    // First by explanation score
-    if (a.score !== b.score) return b.score - a.score;
     
-    // Then by options completeness
+    if (a.score !== b.score) return b.score - a.score;
+
     const aOpts = Object.keys(a.options).length;
     const bOpts = Object.keys(b.options).length;
     if (aOpts !== bOpts) return bOpts - aOpts;
     
-    // Then by ID (prefer older)
+
     return a.id - b.id;
   });
   
   return scored[0];
 }
 
-/**
- * Group similar MCQs together (aggressive grouping)
- */
 function groupSimilarMCQs(mcqs) {
   const groups = [];
   const processed = new Set();
