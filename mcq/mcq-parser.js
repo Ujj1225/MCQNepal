@@ -1,6 +1,11 @@
 import fs from 'fs/promises';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 
-const DEFAULT_MCQ_FILE = './mcqs.json';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const DEFAULT_MCQ_FILE = join(__dirname, '../output/mcqs.json');
 
 export async function parseMCQsToJSON(geminiResponse, options = {}) {
   const {
@@ -24,10 +29,10 @@ export async function parseMCQsToJSON(geminiResponse, options = {}) {
 
 function cleanGeminiResponse(response) {
   return response
-    .replace(/```json\n?/g, '') // Remove JSON code block markers
-    .replace(/```\n?/g, '')      // Remove closing code block markers
-    .replace(/^\s*{\s*"mcqs":\s*\[/i, '[') // Handle if wrapped in {"mcqs": [...]}
-    .replace(/\s*}\s*$/g, '')     // Remove trailing object wrapper
+    .replace(/```json\n?/g, '')
+    .replace(/```\n?/g, '')
+    .replace(/^\s*{\s*"mcqs":\s*\[/i, '[')
+    .replace(/\s*}\s*$/g, '')
     .trim();
 }
 
@@ -110,26 +115,10 @@ function standardizeMCQ(mcq) {
   };
 }
 
-function isDuplicateMCQ(newMcq, existingMcqs) {
-  const normalizeText = (text) => {
-    return text.toLowerCase()
-      .replace(/[^\w\s]/g, '') 
-      .replace(/\s+/g, ' ')    
-      .trim();
-  };
-  
-  const normalizedNewQuestion = normalizeText(newMcq.question);
-  
-  return existingMcqs.some(existing => 
-    normalizeText(existing.question) === normalizedNewQuestion
-  );
-}
-
 export async function saveMCQsToFile(newMcqs, filePath = DEFAULT_MCQ_FILE) {
   try {
     let existingMcqs = [];
-    let addedCount = 0;
-    let duplicateCount = 0;
+    
     try {
       const fileContent = await fs.readFile(filePath, 'utf8');
       existingMcqs = JSON.parse(fileContent);
@@ -137,21 +126,23 @@ export async function saveMCQsToFile(newMcqs, filePath = DEFAULT_MCQ_FILE) {
         existingMcqs = [existingMcqs];
       }
     } catch (e) {
+      console.log("📝 Creating new MCQs file");
       existingMcqs = [];
     }
+    
+    const existingQuestions = new Set(existingMcqs.map(m => m.question.toLowerCase().trim()));
+    
     const uniqueNewMcqs = [];
     let nextId = existingMcqs.length > 0 
       ? Math.max(...existingMcqs.map(m => m.id)) + 1 
       : 1;
     
     for (const newMcq of newMcqs) {
-      if (isDuplicateMCQ(newMcq, existingMcqs)) {
-        duplicateCount++;
-        continue;
+      if (!existingQuestions.has(newMcq.question.toLowerCase().trim())) {
+        newMcq.id = nextId++;
+        uniqueNewMcqs.push(newMcq);
+        existingQuestions.add(newMcq.question.toLowerCase().trim());
       }
-      newMcq.id = nextId++;
-      uniqueNewMcqs.push(newMcq);
-      addedCount++;
     }
 
     const allMcqs = [...existingMcqs, ...uniqueNewMcqs];
@@ -160,9 +151,8 @@ export async function saveMCQsToFile(newMcqs, filePath = DEFAULT_MCQ_FILE) {
     
     console.log(`\n📊 MCQs Summary:`);
     console.log(`   - New MCQs found: ${newMcqs.length}`);
-    console.log(`   - Duplicates skipped: ${duplicateCount}`);
-    console.log(`   - New MCQs added: ${addedCount}`);
-    console.log(`   - Total MCQs in database: ${allMcqs.length}`);
+    console.log(`   - New MCQs added: ${uniqueNewMcqs.length}`);
+    console.log(`   - Total MCQs: ${allMcqs.length}`);
     console.log(`✅ MCQs saved to ${filePath}`);
     
     return uniqueNewMcqs;
@@ -212,7 +202,7 @@ export function formatMCQs(mcqs, format = 'json') {
     
     case 'readable':
       let output = '';
-      mcqs.forEach((mcq, index) => {
+      mcqs.forEach((mcq) => {
         output += `\nMCQ #${mcq.id}:\n`;
         output += `Q: ${mcq.question}\n`;
         output += "Options:\n";
