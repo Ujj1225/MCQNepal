@@ -38,9 +38,10 @@
       "D": "Anteriorly concave and posteriorly concave"
     },
     "correctAnswer": "A",
-    "explanation": "In frogs, the 2nd through 7th vertebrae are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side. The typical vertebrae (2nd to 7th) of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side.",
+    "explanation": "In frogs, the 2nd through 7th vertebrae are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side. The typical vertebrae (2nd to 7th) of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side. The typical vertebrae (2nd to 7th) of a frog are procoelous, meaning the centrum is concave on the anterior surface and convex on the posterior surface.",
     "difficulty": "medium",
-    "tags": []
+    "tags": [],
+    "score": 8
   },
   {
     "id": 4,
@@ -108,9 +109,8 @@
       "D": "Serum"
     },
     "correctAnswer": "A",
-    "explanation": "Earthworms have a closed circulatory system containing true blood, where hemoglobin is dissolved directly in the plasma rather than being contained in red blood cells. Earthworms have a closed circulatory system containing blood. The respiratory pigment hemoglobin (erythrocruorin) is dissolved directly in the blood plasma rather than being contained in red blood cells.",
+    "explanation": "Earthworms have a closed circulatory system containing true blood, where hemoglobin is dissolved directly in the plasma rather than being contained in red blood cells. Earthworms have a closed circulatory system containing blood. The respiratory pigment hemoglobin (erythrocruorin) is dissolved directly in the blood plasma rather than being contained in red blood cells. Annelids like earthworms have a closed circulatory system where blood, containing hemoglobin dissolved in the plasma, circulates through a closed network of vessels.",
     "difficulty": "medium",
-    "tags": [],
-    "score": 5
+    "tags": []
   }
 ]
