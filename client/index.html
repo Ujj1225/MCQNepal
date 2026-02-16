@@ -424,7 +424,8 @@
         let filteredMCQs = [];
         let currentMCQIndex = 0;
         let currentFilter = 'all';
-        fetch('/api/mcqs')
+        // fetch('/api/mcqs')
+        fetch('/.netlify/functions/api/mcqs')
             .then(response => response.json())
             .then(data => {
                 allMCQs = data;
