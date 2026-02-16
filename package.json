@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "tesseract.js": "^7.0.0"
+  },
+  "type": "module",
+    "scripts": {
+    "start": "cd mcq && node index.js",
+    "server": "cd server && node server.js",
+    "process": "cd mcq && node index.js",
+    "deduplicate": "cd mcq && node deduplicate.js run",
+    "deduplicate:preview": "cd mcq && node deduplicate.js preview",
+    "deduplicate:help": "cd mcq && node deduplicate.js help"
+  }
+}
