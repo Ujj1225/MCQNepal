@@ -1,4 +1,3 @@
-// mcq/deduplicate.js
 import fs from 'fs/promises';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
@@ -8,9 +7,6 @@ const __dirname = dirname(__filename);
 
 const MCQ_FILE = join(__dirname, '../output/mcqs.json');
 
-/**
- * Aggressive text normalization
- */
 function normalizeText(text) {
   return text
     .toLowerCase()
@@ -23,9 +19,6 @@ function normalizeText(text) {
     .trim();
 }
 
-/**
- * Extract core keywords (removes common words)
- */
 function extractCoreKeywords(text) {
   return text
     .toLowerCase()
@@ -36,11 +29,7 @@ function extractCoreKeywords(text) {
     .join(' ');
 }
 
-/**
- * Calculate aggressive similarity score
- */
 function calculateSimilarity(str1, str2) {
-  // Method 1: Core keyword overlap
   const keywords1 = new Set(extractCoreKeywords(str1).split(' '));
   const keywords2 = new Set(extractCoreKeywords(str2).split(' '));
   
@@ -48,15 +37,14 @@ function calculateSimilarity(str1, str2) {
   const keywordUnion = new Set([...keywords1, ...keywords2]);
   
   const keywordSimilarity = keywordUnion.size > 0 ? keywordIntersection.size / keywordUnion.size : 0;
-  
-  // Method 2: Normalized text comparison (stricter)
+
   const norm1 = normalizeText(str1);
   const norm2 = normalizeText(str2);
   
-  // Method 3: Check if one contains the other's core content
+
   const contains = norm1.includes(norm2) || norm2.includes(norm1);
   
-  // Method 4: Levenshtein-like simple ratio
+  // Levenshtein-like simple ratio
   const minLength = Math.min(norm1.length, norm2.length);
   const maxLength = Math.max(norm1.length, norm2.length);
   let matches = 0;
@@ -66,27 +54,22 @@ function calculateSimilarity(str1, str2) {
   }
   
   const charSimilarity = matches / maxLength;
-  
-  // Combined score (weighted)
+ 
   return {
     keywordScore: keywordSimilarity,
     contains: contains,
     charScore: charSimilarity,
     combined: Math.max(
-      keywordSimilarity * 1.2, // Boost keyword similarity
+      keywordSimilarity * 1.2, 
       contains ? 0.9 : 0,
       charSimilarity * 1.1
     )
   };
 }
 
-/**
- * Check if questions are duplicates (lowered threshold)
- */
 function areQuestionsSimilar(q1, q2) {
   const similarity = calculateSimilarity(q1, q2);
   
-  // Much more aggressive thresholds
   return (
     similarity.combined > 0.65 || // Lowered from 0.85
     similarity.keywordScore > 0.6 || // High keyword overlap
@@ -95,15 +78,12 @@ function areQuestionsSimilar(q1, q2) {
   );
 }
 
-/**
- * Score explanation quality
- */
 function scoreExplanation(explanation) {
   if (!explanation) return 0;
   
   let score = 0;
   
-  // Length-based scoring
+
   const wordCount = explanation.split(' ').length;
   if (wordCount > 30) score += 5;
   else if (wordCount > 20) score += 4;
@@ -111,7 +91,6 @@ function scoreExplanation(explanation) {
   else if (wordCount > 10) score += 2;
   else if (wordCount > 5) score += 1;
   
-  // Check for scientific depth
   const scientificTerms = [
     'because', 'therefore', 'thus', 'hence',
     'mechanism', 'process', 'function',
@@ -127,7 +106,6 @@ function scoreExplanation(explanation) {
     }
   }
   
-  // Check for specific details
   if (explanation.includes(':') || explanation.includes(' - ')) score += 1;
   if (explanation.includes('(') && explanation.includes(')')) score += 1; // Has scientific names
   if (explanation.match(/\b[A-Z][a-z]+ (et al\.|[A-Z][a-z]+)\b/)) score += 2; // Has scientific names
@@ -135,9 +113,6 @@ function scoreExplanation(explanation) {
   return score;
 }
 
-/**
- * Choose the best MCQ among duplicates
- */
 function chooseBestMCQ(mcqs) {
   if (mcqs.length === 1) return mcqs[0];
   
