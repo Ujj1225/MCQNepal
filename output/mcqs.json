@@ -9,7 +9,7 @@
       "D": "Pinworm"
     },
     "correctAnswer": "D",
-    "explanation": "Pinworms (Enterobius vermicularis) migrate to the anus at night to lay their eggs, which causes intense itching in the perianal area. Pinworm (Enterobius vermicularis) infections cause perianal itching because the female worms migrate to the anus at night to lay their eggs, causing local irritation. Pinworm (Enterobius vermicularis) infections cause perianal itching at night because the female worms migrate to the anus to lay their eggs.",
+    "explanation": "Pinworms (Enterobius vermicularis) migrate to the anus at night to lay their eggs, which causes intense itching in the perianal area. Pinworm (Enterobius vermicularis) infections cause perianal itching because the female worms migrate to the anus at night to lay their eggs, causing local irritation. Pinworm (Enterobius vermicularis) infections cause perianal itching at night because the female worms migrate to the anus to lay their eggs. Pinworm (Enterobius vermicularis) infections cause perianal itching because the female worms migrate to the anus at night to deposit their eggs.",
     "difficulty": "medium",
     "tags": [],
     "score": 8
@@ -24,7 +24,7 @@
       "D": "Anteriorly concave and posteriorly concave"
     },
     "correctAnswer": "A",
-    "explanation": "The 2nd through 7th vertebrae of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side. The 2nd to 7th vertebrae of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side.",
+    "explanation": "The 2nd through 7th vertebrae of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side. The 2nd to 7th vertebrae of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side. The typical vertebrae of a frog are procoelous, meaning they are concave on the anterior side and convex on the posterior side.",
     "difficulty": "medium",
     "tags": [],
     "score": 7
@@ -39,7 +39,7 @@
       "D": "Serum"
     },
     "correctAnswer": "A",
-    "explanation": "Earthworms have a closed circulatory system where blood stays within vessels. Their blood contains hemoglobin dissolved in the plasma, unlike insects which have haemolymph. Earthworms have a closed circulatory system where blood is confined to vessels. Their blood contains hemoglobin dissolved in the plasma, unlike insects which have an open system containing haemolymph. Earthworms possess a closed circulatory system containing true blood, where hemoglobin is dissolved directly in the plasma rather than being contained in red blood cells.",
+    "explanation": "Earthworms have a closed circulatory system where blood stays within vessels. Their blood contains hemoglobin dissolved in the plasma, unlike insects which have haemolymph. Earthworms have a closed circulatory system where blood is confined to vessels. Their blood contains hemoglobin dissolved in the plasma, unlike insects which have an open system containing haemolymph. Earthworms possess a closed circulatory system containing true blood, where hemoglobin is dissolved directly in the plasma rather than being contained in red blood cells. Earthworms have a closed circulatory system where blood remains confined to vessels. Their blood contains hemoglobin dissolved in the plasma.",
     "difficulty": "medium",
     "tags": [],
     "score": 5
@@ -54,7 +54,7 @@
       "D": "Adipose"
     },
     "correctAnswer": "D",
-    "explanation": "Adipose tissue is a specialized connective tissue that stores energy in the form of fat and provides thermal insulation to the body. Adipose tissue is a specialized connective tissue that stores energy in the form of fat and provides insulation to help maintain body temperature. Adipose tissue is a specialized connective tissue that stores energy in the form of fat and provides thermal insulation for the body.",
+    "explanation": "Adipose tissue is a specialized connective tissue that stores energy in the form of fat and provides thermal insulation to the body. Adipose tissue is a specialized connective tissue that stores energy in the form of fat and provides insulation to help maintain body temperature. Adipose tissue is a specialized connective tissue that stores energy in the form of fat and provides thermal insulation for the body. Adipose tissue is a specialized connective tissue that stores energy in the form of lipids and acts as an insulator to maintain body heat.",
     "difficulty": "medium",
     "tags": [],
     "score": 5
@@ -69,10 +69,10 @@
       "D": "Columnar epithelium"
     },
     "correctAnswer": "C",
-    "explanation": "Transitional epithelium is a specialized stratified tissue that can stretch, making it ideal for lining organs like the urinary bladder that expand. Transitional epithelium is a specialized stratified tissue that can stretch and change shape, making it ideal for lining organs like the urinary bladder that expand and contract. Transitional epithelium (urothelium) lines the urinary bladder, allowing the organ to stretch and expand as it fills with urine.",
+    "explanation": "Transitional epithelium is a specialized stratified tissue that can stretch, making it ideal for lining organs like the urinary bladder that expand. Transitional epithelium is a specialized stratified tissue that can stretch and change shape, making it ideal for lining organs like the urinary bladder that expand and contract. Transitional epithelium (urothelium) lines the urinary bladder, allowing the organ to stretch and expand as it fills with urine. Transitional epithelium (urothelium) is uniquely designed to stretch and expand, making it ideal for organs like the urinary bladder.",
     "difficulty": "medium",
     "tags": [],
-    "score": 5
+    "score": 6
   },
   {
     "id": 6,
@@ -84,7 +84,7 @@
       "D": "Tonsils"
     },
     "correctAnswer": "A",
-    "explanation": "While both originate in the bone marrow, T-cells migrate to the thymus gland to mature and become immunologically competent. T-lymphocytes are named after the Thymus, the organ where they migrate from the bone marrow to undergo maturation and selection. T-lymphocytes are named after the Thymus, which is the organ where they migrate to mature after being produced in the bone marrow.",
+    "explanation": "While both originate in the bone marrow, T-cells migrate to the thymus gland to mature and become immunologically competent. T-lymphocytes are named after the Thymus, the organ where they migrate from the bone marrow to undergo maturation and selection. T-lymphocytes are named after the Thymus, which is the organ where they migrate to mature after being produced in the bone marrow. While both cell types start in the bone marrow, T-cells migrate to the thymus gland to mature and become immunologically competent.",
     "difficulty": "medium",
     "tags": [],
     "score": 5
@@ -99,7 +99,7 @@
       "D": "None of the above"
     },
     "correctAnswer": "C",
-    "explanation": "Plasmodium digests the globin protein of host hemoglobin. The remaining toxic heme is converted into an insoluble crystalline form called haemozoin. Plasmodium digests the globin part of the host's hemoglobin for nutrition. This releases toxic free heme, which the parasite converts into a non-toxic, insoluble crystalline pigment called haemozoin. Haemozoin is a disposal product formed from the digestion of blood hemoglobin by blood-feeding parasites like Plasmodium; the parasite crystallizes the toxic heme into non-toxic haemozoin.",
+    "explanation": "Plasmodium digests the globin protein of host hemoglobin. The remaining toxic heme is converted into an insoluble crystalline form called haemozoin. Plasmodium digests the globin part of the host's hemoglobin for nutrition. This releases toxic free heme, which the parasite converts into a non-toxic, insoluble crystalline pigment called haemozoin. Haemozoin is a disposal product formed from the digestion of blood hemoglobin by blood-feeding parasites like Plasmodium; the parasite crystallizes the toxic heme into non-toxic haemozoin. Plasmodium digests the host's hemoglobin, using the globin part as food and converting the remaining toxic heme into insoluble haemozoin crystals.",
     "difficulty": "medium",
     "tags": [],
     "score": 5
@@ -114,7 +114,7 @@
       "D": "Organ of Bojanus"
     },
     "correctAnswer": "B",
-    "explanation": "The radula is a chitinous, rasping tongue-like organ found in most mollusks, used for scraping or cutting food before it enters the esophagus. The radula is a chitinous, rasping tongue-like organ used by many mollusks to scrape or cut food. Osphradium is sensory, ctenidia are gills, and the Organ of Bojanus is an excretory organ. The radula is a chitinous, rasping tongue-like organ found in most mollusks used for feeding. Osphradium is a sensory organ, ctenidia are gills, and the Organ of Bojanus is an excretory organ.",
+    "explanation": "The radula is a chitinous, rasping tongue-like organ found in most mollusks, used for scraping or cutting food before it enters the esophagus. The radula is a chitinous, rasping tongue-like organ used by many mollusks to scrape or cut food. Osphradium is sensory, ctenidia are gills, and the Organ of Bojanus is an excretory organ. The radula is a chitinous, rasping tongue-like organ found in most mollusks used for feeding. Osphradium is a sensory organ, ctenidia are gills, and the Organ of Bojanus is an excretory organ. The radula is a chitinous, tongue-like rasping organ found in most mollusks, used for scraping or cutting food before it enters the esophagus.",
     "difficulty": "medium",
     "tags": [],
     "score": 5
@@ -129,7 +129,7 @@
       "D": "Hepatitis E"
     },
     "correctAnswer": "B",
-    "explanation": "Hepatitis B is a viral infection that is frequently transmitted through sexual contact, as well as through blood and other body fluids. Hepatitis B is a viral infection that can be transmitted through sexual contact, blood transfusions, and from mother to child. Hepatitis A and E are generally transmitted via the fecal-oral route.",
+    "explanation": "Hepatitis B is a viral infection that is frequently transmitted through sexual contact, as well as through blood and other body fluids. Hepatitis B is a viral infection that can be transmitted through sexual contact, blood transfusions, and from mother to child. Hepatitis A and E are generally transmitted via the fecal-oral route. While several types of Hepatitis exist, Hepatitis B is significantly transmitted through sexual contact, whereas Hepatitis A is primarily spread via the fecal-oral route.",
     "difficulty": "medium",
     "tags": [],
     "score": 5
@@ -144,7 +144,7 @@
       "D": "Esophagus"
     },
     "correctAnswer": "A",
-    "explanation": "Pseudostratified ciliated columnar epithelium lines the majority of the upper respiratory tract, including the trachea. Pseudostratified columnar epithelium (often ciliated) lines the respiratory tract, including the trachea, where it helps move mucus and trapped particles out of the lungs. Pseudostratified columnar ciliated epithelium lines the majority of the upper respiratory tract, including the trachea, to help move mucus.",
+    "explanation": "Pseudostratified ciliated columnar epithelium lines the majority of the upper respiratory tract, including the trachea. Pseudostratified columnar epithelium (often ciliated) lines the respiratory tract, including the trachea, where it helps move mucus and trapped particles out of the lungs. Pseudostratified columnar ciliated epithelium lines the majority of the upper respiratory tract, including the trachea, to help move mucus. Pseudostratified ciliated columnar epithelium is a characteristic lining of the upper respiratory tract, including the trachea.",
     "difficulty": "medium",
     "tags": [],
     "score": 6
@@ -159,10 +159,10 @@
       "D": "Maintenance of pregnancy"
     },
     "correctAnswer": "D",
-    "explanation": "Progesterone is essential for maintaining the endometrium (uterine lining), which is necessary for the implantation of a fertilized egg and the maintenance of pregnancy. Progesterone is often called the 'pregnancy hormone' because its primary role is to maintain the thickened lining of the uterus (endometrium) to support a developing fetus. ((uterine lining), (endometrium))",
+    "explanation": "Progesterone is essential for maintaining the endometrium (uterine lining), which is necessary for the implantation of a fertilized egg and the maintenance of pregnancy. Progesterone is often called the 'pregnancy hormone' because its primary role is to maintain the thickened lining of the uterus (endometrium) to support a developing fetus. ((uterine lining), (endometrium)). Progesterone is essential for preparing the endometrial lining for implantation and maintaining the uterine environment during pregnancy. ((uterine lining), (endometrium), ((uterine lining))",
     "difficulty": "medium",
     "tags": [],
-    "score": 7
+    "score": 8
   },
   {
     "id": 12,
@@ -189,7 +189,7 @@
       "D": "Trophozoite"
     },
     "correctAnswer": "B",
-    "explanation": "In the signet ring stage of malaria, the parasite develops a large vacuole that pushes the cytoplasm and nucleus to the side, resembling a ring. In the signet ring stage of the malaria parasite (Plasmodium), the developing trophozoite forms a large central vacuole that pushes the nucleus to one side, resembling a signet ring. In the signet ring stage of Plasmodium, a large central vacuole pushes the nucleus to the edge of the cell, making it resemble a ring.",
+    "explanation": "In the signet ring stage of malaria, the parasite develops a large vacuole that pushes the cytoplasm and nucleus to the side, resembling a ring. In the signet ring stage of the malaria parasite (Plasmodium), the developing trophozoite forms a large central vacuole that pushes the nucleus to one side, resembling a signet ring. In the signet ring stage of Plasmodium, a large central vacuole pushes the nucleus to the edge of the cell, making it resemble a ring. In the life cycle of Plasmodium, the early trophozoite develops a large vacuole that displaces the nucleus, creating a 'signet ring' appearance under a microscope.",
     "difficulty": "medium",
     "tags": [],
     "score": 6
@@ -204,9 +204,177 @@
       "D": "Holocrine"
     },
     "correctAnswer": "D",
-    "explanation": "In holocrine glands (like sebaceous glands), the entire cell disintegrates to release its secretory product. In holocrine glands (like sebaceous glands), the entire cell ruptures and dies to release its secretory products. Merocrine glands release via exocytosis, and apocrine glands lose a portion of the cell. Holocrine glands (like sebaceous glands) release their secretions by the total disintegration of the secretory cells.",
+    "explanation": "In holocrine glands (like sebaceous glands), the entire cell disintegrates to release its secretory product. In holocrine glands (like sebaceous glands), the entire cell ruptures and dies to release its secretory products. Merocrine glands release via exocytosis, and apocrine glands lose a portion of the cell. Holocrine glands (like sebaceous glands) release their secretions by the total disintegration of the secretory cells. Holocrine glands, such as sebaceous glands, release their products by rupturing the entire cell membrane, destroying the cell in the process.",
     "difficulty": "medium",
     "tags": [],
     "score": 6
+  },
+  {
+    "id": 15,
+    "question": "Which of the following has the maximum penetrating power?",
+    "options": {
+      "A": "Alpha particles",
+      "B": "Beta particles",
+      "C": "γ rays",
+      "D": "High-energy X-radiation"
+    },
+    "correctAnswer": "C",
+    "explanation": "Gamma rays (γ rays) are high-energy electromagnetic radiation with no charge or mass, allowing them to penetrate matter much more deeply than alpha or beta particles, which are stopped by paper or aluminum respectively.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 16,
+    "question": "The ratio of the fundamental frequencies of a closed pipe and an open pipe of the same length is:",
+    "options": {
+      "A": "1:2",
+      "B": "2 to 1 ratio",
+      "C": "4 to 1 ratio",
+      "D": "1 to 4 ratio"
+    },
+    "correctAnswer": "A",
+    "explanation": "The fundamental frequency of a closed pipe is f = v/4L, and for an open pipe, it is f = v/2L. The ratio (v/4L) / (v/2L) simplifies to 1:2.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 17,
+    "question": "When a gas is suddenly compressed until its temperature doubles, the ratio of its final volume to its initial volume is:",
+    "options": {
+      "A": "Exactly half",
+      "B": "Less than 1/2",
+      "C": "Greater than 0.5",
+      "D": "Ranging from 1 to 2"
+    },
+    "correctAnswer": "B",
+    "explanation": "A sudden compression is an adiabatic process where TV^(γ-1) = constant. If temperature doubles (T2=2T1), then V2/V1 = (1/2)^(1/(γ-1)). Since γ for gases is typically 1.4 or 1.66, the exponent 1/(γ-1) is greater than 1, making the volume ratio less than 1/2.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 18,
+    "question": "The resolving power of a telescope is given by the expression:",
+    "options": {
+      "A": "1.22λ / D",
+      "B": "D / 1.22λ",
+      "C": "1.22D / λ",
+      "D": "λ / 1.22D"
+    },
+    "correctAnswer": "B",
+    "explanation": "The resolving power of a telescope is the reciprocal of the limit of resolution (Δθ = 1.22λ / D). Therefore, Resolving Power = D / 1.22λ, where D is the aperture diameter and λ is the wavelength.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 19,
+    "question": "Identify the correct sequence of thermodynamic processes in descending order of the work performed during expansion:",
+    "options": {
+      "A": "Isothermal, Adiabatic, Isobaric, and then Isochoric",
+      "B": "Isobaric followed by Adiabatic, Isochoric, and Isothermal",
+      "C": "Isobaric, Isothermal, Adiabatic, Isochoric",
+      "D": "Isochoric, Adiabatic, Isothermal, and finally Isobaric"
+    },
+    "correctAnswer": "C",
+    "explanation": "In a P-V diagram, work done is the area under the curve. For the same expansion, the pressure stays highest in isobaric, followed by isothermal, then adiabatic (which is steeper), while isochoric work is zero.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 20,
+    "question": "A potential difference V is applied across a uniform wire maintained at temperature T. The drift velocity of electrons through the wire depends directly upon:",
+    "options": {
+      "A": "Absolute temperature",
+      "B": "V",
+      "C": "Square root of temperature",
+      "D": "Square root of potential difference"
+    },
+    "correctAnswer": "B",
+    "explanation": "Drift velocity (vd) is given by vd = μE, where E = V/L. Thus, vd = μV/L, showing a direct linear proportionality to the applied potential difference V.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 21,
+    "question": "The apparent weight of a body in a lift is less than its actual weight. In this scenario, the lift must be:",
+    "options": {
+      "A": "Down with an acceleration",
+      "B": "Accelerating upwards",
+      "C": "Moving downwards at a constant speed",
+      "D": "Remaining at rest"
+    },
+    "correctAnswer": "A",
+    "explanation": "When a lift accelerates downwards with acceleration 'a', the effective acceleration is (g - a). Thus, the apparent weight N = m(g - a) is less than the actual weight mg.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 22,
+    "question": "Which of the following statements correctly describes the difference between an ordinary junction diode and a Zener diode?",
+    "options": {
+      "A": "Standard diodes exhibit a reduced reverse breakdown voltage compared to Zener types",
+      "B": "Ordinary diode has higher reverse breakdown voltage than Zener diode",
+      "C": "Standard diodes are manufactured with a greater density of dopants than Zener diodes",
+      "D": "Conventional diodes facilitate reverse bias conduction while Zener diodes do not"
+    },
+    "correctAnswer": "B",
+    "explanation": "Zener diodes are specifically designed with high doping levels to have a low and very sharp reverse breakdown voltage, whereas ordinary diodes have much higher breakdown voltages and are not intended to operate in that region.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 23,
+    "question": "Which is the most widely accepted theory regarding the origin of the universe?",
+    "options": {
+      "A": "Big Bang Theory",
+      "B": "Oscillating Universe Theory",
+      "C": "Theory of Continuous Creation",
+      "D": "Panspermia hypothesis"
+    },
+    "correctAnswer": "A",
+    "explanation": "The Big Bang Theory is the prevailing cosmological model for the universe from the earliest known periods through its subsequent large-scale evolution, supported by evidence like cosmic microwave background radiation.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 24,
+    "question": "A car is brought to a stop at a distance x when its momentum is p. If the car's momentum is increased to 2p, what will be the new stopping distance?",
+    "options": {
+      "A": "Twice the original distance",
+      "B": "4x",
+      "C": "The same distance",
+      "D": "Half of the original distance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Stopping distance is proportional to Kinetic Energy (K). Since K = p²/2m, the distance x is proportional to p². Doubling the momentum (2p) results in (2)² or 4 times the stopping distance.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 25,
+    "question": "During an adiabatic process, the volume of a gas is found to be proportional to the square root of its absolute temperature. The adiabatic ratio (γ) for this gas is:",
+    "options": {
+      "A": "3",
+      "B": "1.33",
+      "C": "1.67",
+      "D": "1.5"
+    },
+    "correctAnswer": "A",
+    "explanation": "In an adiabatic process, TV^(γ-1) = constant. If V ∝ T^(1/2), then T ∝ V². Comparing this to T ∝ V^(1-γ), we find that γ-1 = 2, which gives γ = 3.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 26,
+    "question": "A uniform wire with a resistance of 36 Ω is bent into a circle. A battery is connected between points A and B such that the arc AB subtends a 60° angle at the center. The effective resistance between A and B is:",
+    "options": {
+      "A": "6.0 Ω",
+      "B": "5 Ω",
+      "C": "36.0 Ω",
+      "D": "30.0 Ω"
+    },
+    "correctAnswer": "B",
+    "explanation": "The wire is divided into two parallel paths: one arc of 60° (resistance = 60/360 * 36 = 6 Ω) and another arc of 300° (resistance = 300/360 * 36 = 30 Ω). The effective resistance is (6 * 30) / (6 + 30) = 180 / 36 = 5 Ω.",
+    "difficulty": "medium",
+    "tags": []
   }
 ]
