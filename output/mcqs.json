@@ -61,20 +61,6 @@
   },
   {
     "id": 5,
-    "question": "Pseudostratified epithelium is most commonly found in which of the following locations?",
-    "options": {
-      "A": "Trachea",
-      "B": "Ureter",
-      "C": "Blood vessels",
-      "D": "Kidney tubules"
-    },
-    "correctAnswer": "A",
-    "explanation": "Pseudostratified ciliated columnar epithelium lines the majority of the upper respiratory tract, including the trachea.",
-    "difficulty": "medium",
-    "tags": []
-  },
-  {
-    "id": 6,
     "question": "What kind of tissue lines the inner surface of the urinary bladder?",
     "options": {
       "A": "Squamous epithelium",
@@ -89,21 +75,7 @@
     "score": 4
   },
   {
-    "id": 7,
-    "question": "A scientist finds an organism that is triploblastic and segmented. To confirm it is an arthropod, which characteristic must be verified?",
-    "options": {
-      "A": "Presence of wings",
-      "B": "Presence of antennae",
-      "C": "Presence of mouthparts",
-      "D": "Presence of jointed appendages"
-    },
-    "correctAnswer": "D",
-    "explanation": "The defining characteristic of Phylum Arthropoda is the presence of jointed appendages ('arthro' means joint, 'poda' means foot).",
-    "difficulty": "medium",
-    "tags": []
-  },
-  {
-    "id": 8,
+    "id": 6,
     "question": "T-lymphocytes and B-lymphocytes both originate in the bone marrow. Where do T-lymphocytes migrate to for maturation?",
     "options": {
       "A": "Thymus",
@@ -118,21 +90,7 @@
     "score": 3
   },
   {
-    "id": 9,
-    "question": "A gland that undergoes complete cellular breakdown to release its secretion is categorized as:",
-    "options": {
-      "A": "Endocrine",
-      "B": "Merocrine",
-      "C": "Apocrine",
-      "D": "Holocrine"
-    },
-    "correctAnswer": "D",
-    "explanation": "In holocrine glands (like sebaceous glands), the entire cell disintegrates to release its secretory product.",
-    "difficulty": "medium",
-    "tags": []
-  },
-  {
-    "id": 10,
+    "id": 7,
     "question": "Haemozoin is a toxic byproduct formed by Plasmodium after the digestion of:",
     "options": {
       "A": "Colour pigment of RBC",
@@ -141,12 +99,13 @@
       "D": "None of the above"
     },
     "correctAnswer": "C",
-    "explanation": "Plasmodium digests the globin protein of host hemoglobin. The remaining toxic heme is converted into an insoluble crystalline form called haemozoin.",
+    "explanation": "Plasmodium digests the globin protein of host hemoglobin. The remaining toxic heme is converted into an insoluble crystalline form called haemozoin. Plasmodium digests the globin part of the host's hemoglobin for nutrition. This releases toxic free heme, which the parasite converts into a non-toxic, insoluble crystalline pigment called haemozoin.",
     "difficulty": "medium",
-    "tags": []
+    "tags": [],
+    "score": 4
   },
   {
-    "id": 11,
+    "id": 8,
     "question": "Some higher invertebrates have a rasping organ in their mouth known as:",
     "options": {
       "A": "Osphradium",
@@ -161,7 +120,7 @@
     "score": 5
   },
   {
-    "id": 12,
+    "id": 9,
     "question": "Which of the following is a sexually transmitted disease?",
     "options": {
       "A": "Hepatitis A",
@@ -176,7 +135,7 @@
     "score": 5
   },
   {
-    "id": 13,
+    "id": 10,
     "question": "Pseudostratified epithelium is found in the:",
     "options": {
       "A": "Trachea",
@@ -185,12 +144,13 @@
       "D": "Esophagus"
     },
     "correctAnswer": "A",
-    "explanation": "Pseudostratified columnar epithelium (often ciliated) lines the respiratory tract, including the trachea, where it helps move mucus and trapped particles out of the lungs.",
+    "explanation": "Pseudostratified ciliated columnar epithelium lines the majority of the upper respiratory tract, including the trachea. Pseudostratified columnar epithelium (often ciliated) lines the respiratory tract, including the trachea, where it helps move mucus and trapped particles out of the lungs.",
     "difficulty": "medium",
-    "tags": []
+    "tags": [],
+    "score": 5
   },
   {
-    "id": 14,
+    "id": 11,
     "question": "Which of the following is a primary function of progesterone?",
     "options": {
       "A": "Secretion of digestive enzymes",
@@ -205,7 +165,7 @@
     "score": 7
   },
   {
-    "id": 15,
+    "id": 12,
     "question": "A scientist found an organism which showed triploblastic character and segmentation. To confirm it is an arthropod, which further characteristic must he verify?",
     "options": {
       "A": "Presence of wings",
@@ -214,12 +174,13 @@
       "D": "Jointed appendages"
     },
     "correctAnswer": "D",
-    "explanation": "The defining characteristic of the Phylum Arthropoda (from the Greek 'arthro' meaning joint and 'pod' meaning foot) is the presence of jointed appendages and a chitinous exoskeleton.",
+    "explanation": "The defining characteristic of Phylum Arthropoda is the presence of jointed appendages ('arthro' means joint, 'poda' means foot). The defining characteristic of the Phylum Arthropoda (from the Greek 'arthro' meaning joint and 'pod' meaning foot) is the presence of jointed appendages and a chitinous exoskeleton. (Phylum Arthropoda, ('arthro' means joint, 'poda' means foot), (from the Greek 'arthro' meaning joint and 'pod' meaning foot))",
     "difficulty": "medium",
-    "tags": []
+    "tags": [],
+    "score": 9
   },
   {
-    "id": 16,
+    "id": 13,
     "question": "The stage of Plasmodium characterized by a large vacuole at the center and the nucleus pushed to the periphery is known as the:",
     "options": {
       "A": "Amoeboid stage",
@@ -234,7 +195,7 @@
     "score": 5
   },
   {
-    "id": 17,
+    "id": 14,
     "question": "The gland which shows complete breakdown of its cells for the release of its secretion is called:",
     "options": {
       "A": "Endocrine",
@@ -243,22 +204,9 @@
       "D": "Holocrine"
     },
     "correctAnswer": "D",
-    "explanation": "In holocrine glands (like sebaceous glands), the entire cell ruptures and dies to release its secretory products. Merocrine glands release via exocytosis, and apocrine glands lose a portion of the cell.",
+    "explanation": "In holocrine glands (like sebaceous glands), the entire cell disintegrates to release its secretory product. In holocrine glands (like sebaceous glands), the entire cell ruptures and dies to release its secretory products. Merocrine glands release via exocytosis, and apocrine glands lose a portion of the cell.",
     "difficulty": "medium",
-    "tags": []
-  },
-  {
-    "id": 18,
-    "question": "Haemozoin is formed by Plasmodium after the consumption of:",
-    "options": {
-      "A": "The heme part of hemoglobin",
-      "B": "The entire RBC",
-      "C": "The globin part of hemoglobin",
-      "D": "Blood plasma"
-    },
-    "correctAnswer": "A",
-    "explanation": "Plasmodium digests the globin part of the host's hemoglobin for nutrition. This releases toxic free heme, which the parasite converts into a non-toxic, insoluble crystalline pigment called haemozoin.",
-    "difficulty": "medium",
-    "tags": []
+    "tags": [],
+    "score": 6
   }
 ]
