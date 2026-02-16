@@ -1,0 +1,20 @@
+[build]
+  publish = "client"
+  functions = "netlify/functions"
+
+[dev]
+  publish = "client"
+  functions = "netlify/functions"  # Add this line
+  autoLaunch = true
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
