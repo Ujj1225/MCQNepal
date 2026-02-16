@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "question": "Some higher invertebrates have a rasping organ in their mouth known as:",
+    "options": {
+      "A": "Osphradium",
+      "B": "Radula",
+      "C": "Ctenidia",
+      "D": "Organ of Bojanus"
+    },
+    "correctAnswer": "B",
+    "explanation": "The radula is a chitinous, rasping tongue-like organ found in most mollusks, used for scraping or cutting food before it enters the esophagus.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 2,
+    "question": "Itching in the anal region, especially during night time, is due to the infection of:",
+    "options": {
+      "A": "Roundworm",
+      "B": "Tapeworm",
+      "C": "Hookworm",
+      "D": "Pinworm"
+    },
+    "correctAnswer": "D",
+    "explanation": "Pinworm (Enterobius vermicularis) infection causes perianal itching because the female worms migrate to the anus at night to lay their eggs.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 3,
+    "question": "Frogs have typical 2nd to 7th trunk vertebrae which have a centrum that is:",
+    "options": {
+      "A": "Anteriorly concave and posteriorly convex",
+      "B": "Anteriorly convex and posteriorly concave",
+      "C": "Anteriorly convex and posteriorly convex",
+      "D": "Anteriorly concave and posteriorly concave"
+    },
+    "correctAnswer": "A",
+    "explanation": "In frogs, the 2nd through 7th vertebrae are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 4,
+    "question": "Earthworms have a closed circulatory system. Which fluid is present in the blood vessels of an earthworm?",
+    "options": {
+      "A": "Blood",
+      "B": "Haemolymph",
+      "C": "Lymph",
+      "D": "Serum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Earthworms have a closed circulatory system containing true blood, where hemoglobin is dissolved directly in the plasma rather than being contained in red blood cells.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 5,
+    "question": "Which tissue is responsible for fat storage and heat insulation?",
+    "options": {
+      "A": "Muscular",
+      "B": "Areolar",
+      "C": "Nervous",
+      "D": "Adipose"
+    },
+    "correctAnswer": "D",
+    "explanation": "Adipose tissue is a specialized connective tissue that stores energy in the form of lipids and provides thermal insulation for the body.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is a sexually transmitted disease?",
+    "options": {
+      "A": "Hepatitis A",
+      "B": "Hepatitis B",
+      "C": "Hepatitis C",
+      "D": "Hepatitis D"
+    },
+    "correctAnswer": "B",
+    "explanation": "While several types of Hepatitis can be blood-borne, Hepatitis B is a major sexually transmitted infection (STI) found in semen and vaginal fluids.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 7,
+    "question": "Pseudostratified epithelium is found in the:",
+    "options": {
+      "A": "Trachea",
+      "B": "Stomach",
+      "C": "Larynx",
+      "D": "Blood vessels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Pseudostratified ciliated columnar epithelium is the characteristic lining of the respiratory tract, particularly the trachea, where it helps move mucus.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is a primary function of progesterone?",
+    "options": {
+      "A": "Secretion of digestive enzymes",
+      "B": "Reabsorption of water",
+      "C": "Maintenance of the endometrium",
+      "D": "Stimulation of follicle growth"
+    },
+    "correctAnswer": "C",
+    "explanation": "Progesterone is a steroid hormone responsible for preparing and maintaining the uterine lining (endometrium) for implantation and pregnancy.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 9,
+    "question": "Earthworm has a closed circulatory system. Which fluid is present in the blood vessels of an earthworm?",
+    "options": {
+      "A": "Blood",
+      "B": "Haemolymph",
+      "C": "Lymph",
+      "D": "Serum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Earthworms possess a closed circulatory system where the fluid (blood) is confined to vessels. Their blood contains hemoglobin dissolved directly in the plasma, giving it a red color.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 10,
+    "question": "Pseudostratified epithelium is found in:",
+    "options": {
+      "A": "Trachea",
+      "B": "Stomach",
+      "C": "Larynx",
+      "D": "Blood vessels"
+    },
+    "correctAnswer": "A",
+    "explanation": "Pseudostratified ciliated columnar epithelium is primarily found in the lining of the upper respiratory tract, specifically the trachea and large bronchi, where it helps trap and move particles.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 11,
+    "question": "Frogs have typical 2nd to 7th vertebrae which have a centrum that is:",
+    "options": {
+      "A": "Anteriorly concave and posteriorly convex",
+      "B": "Anteriorly convex and posteriorly concave",
+      "C": "Anteriorly convex and posteriorly convex",
+      "D": "Anteriorly concave and posteriorly concave"
+    },
+    "correctAnswer": "A",
+    "explanation": "In frogs, the 2nd through 7th vertebrae are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 12,
+    "question": "Earthworms have a closed circulatory system. Which fluid is present in the blood vessels of the earthworm?",
+    "options": {
+      "A": "Blood",
+      "B": "Haemolymph",
+      "C": "Lymph",
+      "D": "Serum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Earthworms possess a closed circulatory system containing blood. Their blood is red because it contains hemoglobin dissolved in the plasma, unlike vertebrates where it is in red blood cells.",
+    "difficulty": "medium",
+    "tags": []
+  }
+]
