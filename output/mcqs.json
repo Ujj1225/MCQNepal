@@ -23,9 +23,10 @@
       "D": "Pinworm"
     },
     "correctAnswer": "D",
-    "explanation": "Pinworm (Enterobius vermicularis) infection causes perianal itching because the female worms migrate to the anus at night to lay their eggs.",
+    "explanation": "Pinworm (Enterobius vermicularis) infection causes perianal itching because the female worms migrate to the anus at night to lay their eggs. Pinworms (Enterobius vermicularis) migrate to the perianal area at night to lay eggs, which causes intense itching (pruritus ani). ((Enterobius vermicularis), (pruritus ani))",
     "difficulty": "medium",
-    "tags": []
+    "tags": [],
+    "score": 7
   },
   {
     "id": 3,
@@ -37,26 +38,12 @@
       "D": "Anteriorly concave and posteriorly concave"
     },
     "correctAnswer": "A",
-    "explanation": "In frogs, the 2nd through 7th vertebrae are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side.",
+    "explanation": "In frogs, the 2nd through 7th vertebrae are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side. The typical vertebrae (2nd to 7th) of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side.",
     "difficulty": "medium",
     "tags": []
   },
   {
     "id": 4,
-    "question": "Earthworms have a closed circulatory system. Which fluid is present in the blood vessels of an earthworm?",
-    "options": {
-      "A": "Blood",
-      "B": "Haemolymph",
-      "C": "Lymph",
-      "D": "Serum"
-    },
-    "correctAnswer": "A",
-    "explanation": "Earthworms have a closed circulatory system containing true blood, where hemoglobin is dissolved directly in the plasma rather than being contained in red blood cells.",
-    "difficulty": "medium",
-    "tags": []
-  },
-  {
-    "id": 5,
     "question": "Which tissue is responsible for fat storage and heat insulation?",
     "options": {
       "A": "Muscular",
@@ -70,7 +57,7 @@
     "tags": []
   },
   {
-    "id": 6,
+    "id": 5,
     "question": "Which of the following is a sexually transmitted disease?",
     "options": {
       "A": "Hepatitis A",
@@ -84,7 +71,7 @@
     "tags": []
   },
   {
-    "id": 7,
+    "id": 6,
     "question": "Pseudostratified epithelium is found in the:",
     "options": {
       "A": "Trachea",
@@ -98,7 +85,7 @@
     "tags": []
   },
   {
-    "id": 8,
+    "id": 7,
     "question": "Which of the following is a primary function of progesterone?",
     "options": {
       "A": "Secretion of digestive enzymes",
@@ -112,8 +99,8 @@
     "tags": []
   },
   {
-    "id": 9,
-    "question": "Earthworm has a closed circulatory system. Which fluid is present in the blood vessels of an earthworm?",
+    "id": 8,
+    "question": "Earthworm has a closed circulatory system. Which fluid is present in the blood vessel of earthworm?",
     "options": {
       "A": "Blood",
       "B": "Haemolymph",
@@ -121,50 +108,9 @@
       "D": "Serum"
     },
     "correctAnswer": "A",
-    "explanation": "Earthworms possess a closed circulatory system where the fluid (blood) is confined to vessels. Their blood contains hemoglobin dissolved directly in the plasma, giving it a red color.",
+    "explanation": "Earthworms have a closed circulatory system containing true blood, where hemoglobin is dissolved directly in the plasma rather than being contained in red blood cells. Earthworms have a closed circulatory system containing blood. The respiratory pigment hemoglobin (erythrocruorin) is dissolved directly in the blood plasma rather than being contained in red blood cells.",
     "difficulty": "medium",
-    "tags": []
-  },
-  {
-    "id": 10,
-    "question": "Pseudostratified epithelium is found in:",
-    "options": {
-      "A": "Trachea",
-      "B": "Stomach",
-      "C": "Larynx",
-      "D": "Blood vessels"
-    },
-    "correctAnswer": "A",
-    "explanation": "Pseudostratified ciliated columnar epithelium is primarily found in the lining of the upper respiratory tract, specifically the trachea and large bronchi, where it helps trap and move particles.",
-    "difficulty": "medium",
-    "tags": []
-  },
-  {
-    "id": 11,
-    "question": "Frogs have typical 2nd to 7th vertebrae which have a centrum that is:",
-    "options": {
-      "A": "Anteriorly concave and posteriorly convex",
-      "B": "Anteriorly convex and posteriorly concave",
-      "C": "Anteriorly convex and posteriorly convex",
-      "D": "Anteriorly concave and posteriorly concave"
-    },
-    "correctAnswer": "A",
-    "explanation": "In frogs, the 2nd through 7th vertebrae are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side.",
-    "difficulty": "medium",
-    "tags": []
-  },
-  {
-    "id": 12,
-    "question": "Earthworms have a closed circulatory system. Which fluid is present in the blood vessels of the earthworm?",
-    "options": {
-      "A": "Blood",
-      "B": "Haemolymph",
-      "C": "Lymph",
-      "D": "Serum"
-    },
-    "correctAnswer": "A",
-    "explanation": "Earthworms possess a closed circulatory system containing blood. Their blood is red because it contains hemoglobin dissolved in the plasma, unlike vertebrates where it is in red blood cells.",
-    "difficulty": "medium",
-    "tags": []
+    "tags": [],
+    "score": 5
   }
 ]
