@@ -1,0 +1,264 @@
+[
+  {
+    "id": 1,
+    "question": "Itching in the anal region, especially during the night, is typically due to an infection of:",
+    "options": {
+      "A": "Roundworm",
+      "B": "Tapeworm",
+      "C": "Hookworm",
+      "D": "Pinworm"
+    },
+    "correctAnswer": "D",
+    "explanation": "Pinworms (Enterobius vermicularis) migrate to the anus at night to lay their eggs, which causes intense itching in the perianal area. Pinworm (Enterobius vermicularis) infections cause perianal itching because the female worms migrate to the anus at night to lay their eggs, causing local irritation.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 7
+  },
+  {
+    "id": 2,
+    "question": "In frogs, the typical 2nd to 7th vertebrae have a centrum that is:",
+    "options": {
+      "A": "Anteriorly concave and posteriorly convex",
+      "B": "Anteriorly convex and posteriorly concave",
+      "C": "Anteriorly convex and posteriorly convex",
+      "D": "Anteriorly concave and posteriorly concave"
+    },
+    "correctAnswer": "A",
+    "explanation": "The 2nd through 7th vertebrae of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side. The 2nd to 7th vertebrae of a frog are procoelous, meaning the centrum is concave on the anterior side and convex on the posterior side.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 6
+  },
+  {
+    "id": 3,
+    "question": "Earthworms possess a closed circulatory system. Which fluid is contained within their blood vessels?",
+    "options": {
+      "A": "Blood",
+      "B": "Haemolymph",
+      "C": "Lymph",
+      "D": "Serum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Earthworms have a closed circulatory system where blood stays within vessels. Their blood contains hemoglobin dissolved in the plasma, unlike insects which have haemolymph. Earthworms have a closed circulatory system where blood is confined to vessels. Their blood contains hemoglobin dissolved in the plasma, unlike insects which have an open system containing haemolymph.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 4
+  },
+  {
+    "id": 4,
+    "question": "Which type of connective tissue is primarily responsible for fat storage and heat insulation?",
+    "options": {
+      "A": "Muscular",
+      "B": "Areolar",
+      "C": "Nervous",
+      "D": "Adipose"
+    },
+    "correctAnswer": "D",
+    "explanation": "Adipose tissue is a specialized connective tissue that stores energy in the form of fat and provides thermal insulation to the body. Adipose tissue is a specialized connective tissue that stores energy in the form of fat and provides insulation to help maintain body temperature.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 4
+  },
+  {
+    "id": 5,
+    "question": "Pseudostratified epithelium is most commonly found in which of the following locations?",
+    "options": {
+      "A": "Trachea",
+      "B": "Ureter",
+      "C": "Blood vessels",
+      "D": "Kidney tubules"
+    },
+    "correctAnswer": "A",
+    "explanation": "Pseudostratified ciliated columnar epithelium lines the majority of the upper respiratory tract, including the trachea.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 6,
+    "question": "What kind of tissue lines the inner surface of the urinary bladder?",
+    "options": {
+      "A": "Squamous epithelium",
+      "B": "Cuboidal epithelium",
+      "C": "Transitional epithelium",
+      "D": "Columnar epithelium"
+    },
+    "correctAnswer": "C",
+    "explanation": "Transitional epithelium is a specialized stratified tissue that can stretch, making it ideal for lining organs like the urinary bladder that expand. Transitional epithelium is a specialized stratified tissue that can stretch and change shape, making it ideal for lining organs like the urinary bladder that expand and contract.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 4
+  },
+  {
+    "id": 7,
+    "question": "A scientist finds an organism that is triploblastic and segmented. To confirm it is an arthropod, which characteristic must be verified?",
+    "options": {
+      "A": "Presence of wings",
+      "B": "Presence of antennae",
+      "C": "Presence of mouthparts",
+      "D": "Presence of jointed appendages"
+    },
+    "correctAnswer": "D",
+    "explanation": "The defining characteristic of Phylum Arthropoda is the presence of jointed appendages ('arthro' means joint, 'poda' means foot).",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 8,
+    "question": "T-lymphocytes and B-lymphocytes both originate in the bone marrow. Where do T-lymphocytes migrate to for maturation?",
+    "options": {
+      "A": "Thymus",
+      "B": "Spleen",
+      "C": "Blood",
+      "D": "Tonsils"
+    },
+    "correctAnswer": "A",
+    "explanation": "While both originate in the bone marrow, T-cells migrate to the thymus gland to mature and become immunologically competent. T-lymphocytes are named after the Thymus, the organ where they migrate from the bone marrow to undergo maturation and selection.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 3
+  },
+  {
+    "id": 9,
+    "question": "A gland that undergoes complete cellular breakdown to release its secretion is categorized as:",
+    "options": {
+      "A": "Endocrine",
+      "B": "Merocrine",
+      "C": "Apocrine",
+      "D": "Holocrine"
+    },
+    "correctAnswer": "D",
+    "explanation": "In holocrine glands (like sebaceous glands), the entire cell disintegrates to release its secretory product.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 10,
+    "question": "Haemozoin is a toxic byproduct formed by Plasmodium after the digestion of:",
+    "options": {
+      "A": "Colour pigment of RBC",
+      "B": "Entire RBC",
+      "C": "Globin part of RBC hemoglobin",
+      "D": "None of the above"
+    },
+    "correctAnswer": "C",
+    "explanation": "Plasmodium digests the globin protein of host hemoglobin. The remaining toxic heme is converted into an insoluble crystalline form called haemozoin.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 11,
+    "question": "Some higher invertebrates have a rasping organ in their mouth known as:",
+    "options": {
+      "A": "Osphradium",
+      "B": "Radula",
+      "C": "Ctenidia",
+      "D": "Organ of Bojanus"
+    },
+    "correctAnswer": "B",
+    "explanation": "The radula is a chitinous, rasping tongue-like organ found in most mollusks, used for scraping or cutting food before it enters the esophagus. The radula is a chitinous, rasping tongue-like organ used by many mollusks to scrape or cut food. Osphradium is sensory, ctenidia are gills, and the Organ of Bojanus is an excretory organ.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 5
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is a sexually transmitted disease?",
+    "options": {
+      "A": "Hepatitis A",
+      "B": "Hepatitis B",
+      "C": "Hepatitis C",
+      "D": "Hepatitis E"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hepatitis B is a viral infection that is frequently transmitted through sexual contact, as well as through blood and other body fluids. Hepatitis B is a viral infection that can be transmitted through sexual contact, blood transfusions, and from mother to child. Hepatitis A and E are generally transmitted via the fecal-oral route.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 5
+  },
+  {
+    "id": 13,
+    "question": "Pseudostratified epithelium is found in the:",
+    "options": {
+      "A": "Trachea",
+      "B": "Blood vessels",
+      "C": "Kidney tubules",
+      "D": "Esophagus"
+    },
+    "correctAnswer": "A",
+    "explanation": "Pseudostratified columnar epithelium (often ciliated) lines the respiratory tract, including the trachea, where it helps move mucus and trapped particles out of the lungs.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is a primary function of progesterone?",
+    "options": {
+      "A": "Secretion of digestive enzymes",
+      "B": "Reabsorption of water",
+      "C": "Stimulation of thyroid metabolism",
+      "D": "Maintenance of pregnancy"
+    },
+    "correctAnswer": "D",
+    "explanation": "Progesterone is essential for maintaining the endometrium (uterine lining), which is necessary for the implantation of a fertilized egg and the maintenance of pregnancy. Progesterone is often called the 'pregnancy hormone' because its primary role is to maintain the thickened lining of the uterus (endometrium) to support a developing fetus. ((uterine lining), (endometrium))",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 7
+  },
+  {
+    "id": 15,
+    "question": "A scientist found an organism which showed triploblastic character and segmentation. To confirm it is an arthropod, which further characteristic must he verify?",
+    "options": {
+      "A": "Presence of wings",
+      "B": "Presence of antennae",
+      "C": "Presence of mouthparts",
+      "D": "Jointed appendages"
+    },
+    "correctAnswer": "D",
+    "explanation": "The defining characteristic of the Phylum Arthropoda (from the Greek 'arthro' meaning joint and 'pod' meaning foot) is the presence of jointed appendages and a chitinous exoskeleton.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 16,
+    "question": "The stage of Plasmodium characterized by a large vacuole at the center and the nucleus pushed to the periphery is known as the:",
+    "options": {
+      "A": "Amoeboid stage",
+      "B": "Signet ring stage",
+      "C": "Schizont stage",
+      "D": "Trophozoite"
+    },
+    "correctAnswer": "B",
+    "explanation": "In the signet ring stage of malaria, the parasite develops a large vacuole that pushes the cytoplasm and nucleus to the side, resembling a ring. In the signet ring stage of the malaria parasite (Plasmodium), the developing trophozoite forms a large central vacuole that pushes the nucleus to one side, resembling a signet ring.",
+    "difficulty": "medium",
+    "tags": [],
+    "score": 5
+  },
+  {
+    "id": 17,
+    "question": "The gland which shows complete breakdown of its cells for the release of its secretion is called:",
+    "options": {
+      "A": "Endocrine",
+      "B": "Merocrine",
+      "C": "Apocrine",
+      "D": "Holocrine"
+    },
+    "correctAnswer": "D",
+    "explanation": "In holocrine glands (like sebaceous glands), the entire cell ruptures and dies to release its secretory products. Merocrine glands release via exocytosis, and apocrine glands lose a portion of the cell.",
+    "difficulty": "medium",
+    "tags": []
+  },
+  {
+    "id": 18,
+    "question": "Haemozoin is formed by Plasmodium after the consumption of:",
+    "options": {
+      "A": "The heme part of hemoglobin",
+      "B": "The entire RBC",
+      "C": "The globin part of hemoglobin",
+      "D": "Blood plasma"
+    },
+    "correctAnswer": "A",
+    "explanation": "Plasmodium digests the globin part of the host's hemoglobin for nutrition. This releases toxic free heme, which the parasite converts into a non-toxic, insoluble crystalline pigment called haemozoin.",
+    "difficulty": "medium",
+    "tags": []
+  }
+]
